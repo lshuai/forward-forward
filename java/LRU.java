@@ -14,7 +14,7 @@ class Node {
 }
 
 public class LRU {
-    private final Map<string, Node> map;
+    private final Map<String, Node> map;
 
     private Node head;
 
@@ -41,7 +41,7 @@ public class LRU {
         return val;
     }
 
-    public bool put(String key, String val) {
+    public boolean put(String key, String val) {
         if (this.map.containsKey(key)) 
             return false;
         Node newNode = new Node(val, key);
@@ -58,6 +58,7 @@ public class LRU {
             this.tail = this.tail.prev;
             this.tail.next = null;
         }
+        return true;
     }
 
     private void setHead(Node n) {
