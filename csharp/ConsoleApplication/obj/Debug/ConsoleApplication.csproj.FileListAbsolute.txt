@@ -1,0 +1,9 @@
+D:\Source\Workspaces\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+D:\Source\Workspaces\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+D:\Source\Workspaces\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+D:\Source\Workspaces\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
+D:\Source\Workspaces\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+D:\Source\Workspaces\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
+D:\Source\Workspaces\ConsoleApplication\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Source\Workspaces\ConsoleApplication\bin\Debug\Newtonsoft.Json.dll
+D:\Source\Workspaces\ConsoleApplication\bin\Debug\Newtonsoft.Json.xml
