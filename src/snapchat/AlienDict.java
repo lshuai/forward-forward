@@ -35,13 +35,13 @@ public class AlienDict {
         Stack<Character> stack = new Stack<Character>();
         Set<Character> visited = new HashSet<Character>();
         for (Character ch: graph.keySet()) {
-        	if (visited.contains(ch)) continue;
+            if (visited.contains(ch)) continue;
             if(!dfs(stack, visited, new HashSet<Character>(), graph, ch))
                 return "";
         }
         StringBuilder sb = new StringBuilder();
         while (!stack.isEmpty())
-        	sb.append(stack.pop());
+            sb.append(stack.pop());
         return sb.toString();
     }
 
