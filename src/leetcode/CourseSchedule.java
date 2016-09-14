@@ -8,6 +8,7 @@ public class CourseSchedule {
 			new int[] {2, 0},
 			new int[] {2, 1},
 		}));
+		List<Integer>[] a = new List[1];
 	}
 	
     public boolean canFinish(int numCourses, int[][] prerequisites) {
