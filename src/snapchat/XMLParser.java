@@ -42,8 +42,7 @@ class Tag {
 
 public class XMLParser {
 	public static void main(String[] args) throws Exception {
-		String xml = "<menu>fucker</menu>";
-		xml = new String(Files.readAllBytes(Paths.get("/Users/lshuai/Documents/JWorkspace/Forward/src/snapchat/xml.xml")));
+		String xml = new String(Files.readAllBytes(Paths.get("/Users/lshuai/Documents/JWorkspace/Forward/src/snapchat/xml.xml")));
 		XMLNode root = new XMLParser().parse(xml);
 		System.out.println(root);
 	}
