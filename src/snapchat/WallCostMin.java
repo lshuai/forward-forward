@@ -17,10 +17,6 @@ class Cell {
         this.dist = dist;
     }
 
-    public String toKey() {
-        return Integer.toString(x) + "," + Integer.toString(y);
-    }
-
     public List<Cell> getNeighbors(int[][] map) {
         List<Cell> neighbors = new ArrayList<Cell>();
         if (this.x + 1 < map.length && map[this.x + 1][this.y] != 1)
