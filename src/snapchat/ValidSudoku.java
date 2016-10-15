@@ -1,3 +1,4 @@
+package snapchat;
 import java.util.*;
 
 public class ValidSudoku {
