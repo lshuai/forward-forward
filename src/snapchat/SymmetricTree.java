@@ -1,6 +1,7 @@
 package snapchat;
 import java.util.*;
 
+/*
 public class SymmetricTree {
     public boolean isSymmetric(TreeNode root) {
         if (root == null)
@@ -38,3 +39,4 @@ public class SymmetricTree {
         return a.right != null && b.left != null && a.right.val == b.left.val || (a.right == null && b.left == null);
     }
 }
+*/

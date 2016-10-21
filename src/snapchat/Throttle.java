@@ -1,3 +1,5 @@
+package snapchat;
+
 import java.util.*;
 import java.util.stream.*;
 
